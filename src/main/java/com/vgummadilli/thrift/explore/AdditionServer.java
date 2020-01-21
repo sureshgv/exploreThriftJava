@@ -6,7 +6,7 @@ import org.apache.thrift.server.TSimpleServer;
 import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TServerTransport;
 
-public class SampleServer {
+public class AdditionServer {
     public static void StartSampleServer(AdditionService.Processor<AdditionServiceHandler> processor) {
         try {
             TServerTransport serverTransport = new TServerSocket(9090);
